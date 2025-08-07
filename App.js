@@ -9,7 +9,8 @@
 
 const parent=React.createElement("div",{id:"parent"},
     React.createElement("div",{id:"child"},
-    React.createElement("h1",{className:"new"},"Hello World")
+    [React.createElement("h1",{className:"new"},"Hello World h1"),
+        React.createElement("h2",{},"helo world h2")]
     )
 );
 
