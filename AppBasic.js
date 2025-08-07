@@ -8,10 +8,16 @@
 
 
 const parent=React.createElement("div",{id:"parent"},
-    React.createElement("div",{id:"child"},
+   [ React.createElement("div",{id:"child1"},
     [React.createElement("h1",{className:"new"},"Hello World h1"),
         React.createElement("h2",{},"helo world h2")]
-    )
+    )],
+    [
+         [ React.createElement("div",{id:"child2"},
+    [React.createElement("h1",{className:"new"},"Hello World h1"),
+        React.createElement("h2",{},"helo world h2")]
+    )]
+    ]
 );
 
 console.log(parent);//object
