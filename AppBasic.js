@@ -6,18 +6,13 @@
 </div>
 */
 
+import React from "react";
 
-const parent=React.createElement("div",{id:"parent"},
-   [ React.createElement("div",{id:"child1"},
-    [React.createElement("h1",{className:"new"},"Hello World h1"),
-        React.createElement("h2",{},"helo world h2")]
-    )],
-    [
-         [ React.createElement("div",{id:"child2"},
-    [React.createElement("h1",{className:"new"},"Hello World h1"),
-        React.createElement("h2",{},"helo world h2")]
-    )]
-    ]
+import ReactDOM from "react-dom/client";
+
+
+const parent=React.createElement("div",{id:"parent"},"hello worlds"
+   
 );
 
 console.log(parent);//object
