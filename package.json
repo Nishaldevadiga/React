@@ -16,7 +16,6 @@
   "license": "ISC",
   "author": "Nishal Sukumar",
   "type": "commonjs",
-  "main": "AppBasic.js",
   "scripts": {
     "test": "jest"
   },

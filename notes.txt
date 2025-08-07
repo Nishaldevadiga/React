@@ -1,0 +1,4 @@
+Transitive dependency: we have dependency on parcel but parcel might be dependent on other lib, so when we use parcel dependency it uses other packages and thats why node modules have so many files for a single dependency.
+
+npx-> means executing a package we use npx
+
