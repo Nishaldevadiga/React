@@ -1,0 +1,26 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is Namaste React By Nishal Sukumar",
+  "keywords": [
+    "react"
+  ],
+  "homepage": "https://github.com/Nishaldevadiga/React#readme",
+  "bugs": {
+    "url": "https://github.com/Nishaldevadiga/React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishaldevadiga/React.git"
+  },
+  "license": "ISC",
+  "author": "Nishal Sukumar",
+  "type": "commonjs",
+  "main": "AppBasic.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  }
+}
