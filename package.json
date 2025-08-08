@@ -17,7 +17,8 @@
   "author": "Nishal Sukumar",
   "type": "commonjs",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "app":"npx parcel index.html"
   },
   "devDependencies": {
     "parcel": "^2.15.4"
