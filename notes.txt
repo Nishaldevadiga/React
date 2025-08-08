@@ -13,4 +13,5 @@ parcel:
 7. Minification of files
 8. Bundling
 9. Compressing the files
-10.
+10.Error
+
