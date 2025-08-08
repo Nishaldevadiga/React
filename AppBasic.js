@@ -13,9 +13,14 @@ const parent=(
 
 //Functional Component- NEW
 //javascript function returns a react element
-const heading=()=>{
-  return <h1>Pinkan</h1>
+const Heading=()=>
+  {
+  return (
+    <div id="container">
+  <h1>Welcome to React</h1>
+  </div>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(heading());
+root.render(<Heading />);
