@@ -22,6 +22,8 @@ const title=(
 
 );
 
+const data=1000;
+
 
 //Functional Component- NEW
 //javascript function returns a react element
@@ -30,7 +32,7 @@ const Heading=()=>
   {
   return (
     <div id="container">
-      <h2>{title}</h2>
+      <h2>{data}</h2>
       <Tile/>
   <h1>Welcome to React</h1>
   </div>
