@@ -11,12 +11,21 @@ const parent=(
 //Class Based Component- OLD
 
 
+const Tile=()=>{
+return (
+  <h1>Title</h1>
+);
+}
+
+
 //Functional Component- NEW
 //javascript function returns a react element
+//Component inside another component is called component composition
 const Heading=()=>
   {
   return (
     <div id="container">
+      <Tile/>
   <h1>Welcome to React</h1>
   </div>
   );
